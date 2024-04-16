@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <title>Ficha Médica</title>
+</head>
+<body>
+    <form action="">
+        <div class="conteiners">
+            <!-- Sofre algum problema crônico?-->
+            <p>Sofre algum problema crônico?</p>
+            <div>
+                <input type="checkbox" name="asma" id="asma">
+                <label for="asma">Asma</label>
+            </div>
+            <div>
+                <input type="checkbox" name="diabetes" id="diabetes">
+                <label for="diabetes">Diabetes</label>
+            </div>
+            <div>
+                <input type="checkbox" name="crise" id="crise">
+                <label for="crise">Crise Convulsiva</label>
+            </div>
+            <div>
+                <input type="checkbox" name="taquicardia" id="taquicardia">
+                <label for="taquicardia">Taquicardia</label>
+            </div>
+            <div>
+                <input type="checkbox" name="bronquite" id="bronquite">
+                <label for="bronquite">Bronquite</label>
+            </div>
+            <div>
+                <input type="checkbox" name="rinite" id="rinite">
+                <label for="rinite">Rinite</label>
+            </div>
+            <div>
+                <input type="checkbox" name="sinusite" id="sinusite">
+                <label for="sinusite">Sinusite</label>
+            </div>
+            <div>
+                <input type="checkbox" name="outros" id="outros">
+                <label for="outros">Outros</label>
+            </div>
+        </div>
+        <div class="conteiners">
+            <!-- Faz uso de algum medicamento?-->
+            <p>Faz uso de algum medicamento?</p>
+            <div>
+                <input type="radio" name="medicamento" id="medicamento">
+                <label for="medicamento">Sim</label>
+                <input type="radio" name="medicamento" id="medicamento">
+                <label for="medicamento">Não</label>
+            </div>
+        </div>
+        <div class="conteiners">
+            <!-- Tem alergia?-->
+            <p>Tem alergia?</p>
+            <div>
+                <input type="checkbox" name="medicamentos" id="medicamentos">
+                <label for="medicamentos">Medicamentos</label>
+            </div>
+            <div>
+                <input type="checkbox" name="alimento" id="alimento">
+                <label for="alimento">Alimentos</label>
+            </div>
+            <div>
+                <input type="checkbox" name="picada" id="picada">
+                <label for="picada">Picada de insetos</label>
+            </div>
+        </div>
+        <div class="conteiners">
+            <!-- Está se submento a algum tratamento atualmente?-->
+            <p>Está se submento a algum tratamento atualmente?</p>
+            <div>
+                <input type="radio" name="tratamento" id="tratamento">
+                <label for="tratamento">Sim</label>
+                <input type="radio" name="tratamento" id="tratamento">
+                <label for="tratamento">Não</label>
+            </div>
+        </div>
+        <div class="conteiners">
+            <!-- Possui Convênio médico?-->
+            <p>Possui Convênio médico?</p>
+            <div>
+                <input type="radio" name="convenio" id="convenio">
+                <label for="convenio">Sim</label>
+                <input type="radio" name="convenio" id="convenio">
+                <label for="convenio">Não</label>
+            </div>
+        </div>
+        <div class="conteiners">
+            <!-- Portador de deficiência?-->
+            <p>Portador de deficiência?</p>
+            <div>
+                <input type="checkbox" name="cegueira" id="cegueira">
+                <label for="cegueira">Cegueira</label>
+            </div>
+            <div>
+                <input type="checkbox" name="visao" id="visao">
+                <label for="visao">Baixa Visão</label>
+            </div>
+            <div>
+                <input type="checkbox" name="surdez" id="surdez">
+                <label for="surdez">Surdez</label>
+            </div>
+            <div>
+                <input type="checkbox" name="auditiva" id="auditiva">
+                <label for="auditiva">Auditiva</label>
+            </div>
+            <div>
+                <input type="checkbox" name="fisica" id="fisica">
+                <label for="fisica">Fisica</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Surdocegueira" id="Surdocegueira">
+                <label for="Surdocegueira">Surdocegueira</label>
+            </div>
+            <div>
+                <input type="checkbox" name="multipla" id="multipla">
+                <label for="multipla">Múltipla</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Intelectual" id="Intelectual">
+                <label for="Intelectual">Intelectual</label>
+            </div>
+        </div>
+        <div class="conteiners">
+            <!-- Contatos em caso de Emergência-->
+            <p>Contatos em caso de Emergência</p>
+            <div>
+                <input type="number" name="contato" id="contato">
+                <label for="contato">Contato 1</label>
+            </div>
+        </div>
+        <div class="conteiners">
+            <!-- Por que você escolheu a ATHON?.-->
+            <p>Por que você escolheu a ATHON?.</p>
+            <div>
+                <textarea name="motivacao" id="informacoes" cols="30" rows="5"></textarea>
+            </div>
+        </div>
+        <div class="conteiners">
+            <!-- Descreva informações que julgar importante se necessário.-->
+            <p>Descreva informações que julgar importante se necessário.</p>
+            <div>
+                <textarea name="informacoes" id="informacoes" cols="30" rows="5"></textarea>
+            </div>
+        </div>
+        <button onclick="alert('Formulário enviado!')">Enviar</button>
+    </form>
+</body>
+</html>
