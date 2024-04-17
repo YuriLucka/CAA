@@ -20,23 +20,21 @@ header img{
     height: 50px;
 }
 
-header ul{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    list-style: none;
-    padding: 0 20px 0 0;
-}
-
-header ul li{
-    font-size: 1em;
-    font-weight: bolder;
-}
-
 a{
     all: unset;
     cursor: pointer;
 }
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px 20px;
+    border-bottom: solid 1px rgb(170, 170, 170);
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
 
 /* CONFIGURAÇÕES DO MAIN */
 main{
