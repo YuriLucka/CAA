@@ -13,30 +13,27 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 20px 20px;
-    border-bottom: solid 1px rgb(170, 170, 170);
 }
 
 header img{
     height: 50px;
 }
 
-header ul{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    list-style: none;
-    padding: 0 20px 0 0;
-}
-
-header ul li{
-    font-size: 1em;
-    font-weight: bolder;
-}
-
 a{
     all: unset;
     cursor: pointer;
+    font-weight: bold;
 }
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px 20px;
+    border-bottom: solid 1px rgb(170, 170, 170);
+    color: black;
+}
+
 
 /* CONFIGURAÇÕES DO MAIN */
 main{
@@ -53,8 +50,8 @@ iframe{
 /* CONFIGURAÇÕES DO FOOTER */
 footer{
     text-align: center;
-    padding: 20px 0;
-    background: linear-gradient(45deg, rgb(14, 14, 14),rgb(41, 41, 41));
+    padding: 20px 10px;
+    background: linear-gradient(93.38deg, #92278F 0%, #EF4136 48.88%, #FBB040 100%);
 }
 footer p{
     color: white;
