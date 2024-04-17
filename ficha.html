@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="ficha.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/ficha.css">
     <title>Ficha Médica</title>
 </head>
 <body>
@@ -61,10 +61,12 @@
             <!-- Faz uso de algum medicamento?-->
             <p>Faz uso de algum medicamento?</p>
             <div>
-                <input type="radio" name="medicamento" id="medicamento2">
-                <label for="medicamento2"><b>Não</b></label>
                 <input type="radio" name="medicamento" id="medicamento1">
                 <label for="medicamento1">Sim, Qual?___________________________________________________________</label>
+            </div>
+            <div>
+                <input type="radio" name="medicamento" id="medicamento2">
+                <label for="medicamento2"><b>Não</b></label>
             </div>
         </div>
         <div class="conteiners">
@@ -94,20 +96,24 @@
             <!-- Está se submento a algum tratamento atualmente?-->
             <p>Está se submento a algum tratamento atualmente?</p>
             <div>
-                <input type="radio" name="tratamento" id="tratamento2">
-                <label for="tratamento2"><b>Não</b></label>
                 <input type="radio" name="tratamento" id="tratamento1">
                 <label for="tratamento1">Sim, Qual?___________________________________________________________</label>
+            </div>
+            <div>
+                <input type="radio" name="tratamento" id="tratamento2">
+                <label for="tratamento2"><b>Não</b></label>
             </div>
         </div>
         <div class="conteiners">
             <!-- Possui Convênio médico?-->
             <p>Possui Convênio médico?</p>
-            <div">
-                <input type="radio" name="convenio" id="convenio2">
-                <label for="convenio2"><b>Não</b></label>
+            <div>
                 <input type="radio" name="convenio" id="convenio1">
                 <label for="convenio1">Sim, Qual?___________________________________________________________</label>
+            </div>
+            <div>
+                <input type="radio" name="convenio" id="convenio2">
+                <label for="convenio2"><b>Não</b></label>
             </div>
         </div>
         <div class="conteiners">
