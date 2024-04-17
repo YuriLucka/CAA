@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="pagina_inicial.css">
+    <script defer src="js/script.js"></script>
     <title>CAA Portal</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
     <div class="menu">
         <a href="#">Home</a>
         <a href="#">Cursos</a>
-        <a href="ficha.html" target="iframe">Ficha Médica</a>
+        <a href="ficha.html" onclick="imprimirPagina(this.href); return false;">Ficha Médica</a>
     </div>
     <main>
         <iframe src="" frameborder="0" name="iframe"></iframe>

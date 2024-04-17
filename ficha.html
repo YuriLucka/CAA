@@ -8,6 +8,13 @@
     <title>Ficha Médica</title>
 </head>
 <body>
+    <header>
+        <div class="dados">
+            <label><b>Nome</b>: ______________________________________</label>
+            <label><b>CPF</b>: _______________________________________</label>
+        </div>
+        <img src="images/logo.svg" alt="Logo">
+    </header>
     <form action="">
         <div class="conteiners">
             <!-- Sofre algum problema crônico?-->
@@ -42,17 +49,22 @@
             </div>
             <div>
                 <input type="checkbox" name="outros" id="outros">
-                <label for="outros">Outros</label>
+                <label for="outros">Outros, Quais?</label>
+                <label>_____________________________________________________________</label>
+            </div>
+            <div>
+                <input type="checkbox" name="cronico" id="cronico">
+                <label for="cronico"><b>Não</b></label>
             </div>
         </div>
         <div class="conteiners">
             <!-- Faz uso de algum medicamento?-->
             <p>Faz uso de algum medicamento?</p>
             <div>
-                <input type="radio" name="medicamento" id="medicamento1">
-                <label for="medicamento1">Sim</label>
                 <input type="radio" name="medicamento" id="medicamento2">
-                <label for="medicamento2">Não</label>
+                <label for="medicamento2"><b>Não</b></label>
+                <input type="radio" name="medicamento" id="medicamento1">
+                <label for="medicamento1">Sim, Qual?___________________________________________________________</label>
             </div>
         </div>
         <div class="conteiners">
@@ -61,34 +73,41 @@
             <div>
                 <input type="checkbox" name="medicamentos" id="medicamentos">
                 <label for="medicamentos">Medicamentos</label>
+                <label>_____________________________________________________________</label>
             </div>
             <div>
                 <input type="checkbox" name="alimento" id="alimento">
                 <label for="alimento">Alimentos</label>
+                <label>_________________________________________________________________</label>
             </div>
             <div>
                 <input type="checkbox" name="picada" id="picada">
                 <label for="picada">Picada de insetos</label>
+                <label>___________________________________________________________</label>
+            </div>
+            <div>
+                <input type="checkbox" name="alergia" id="alergia">
+                <label for="alergia"><b>Não</b></label>
             </div>
         </div>
         <div class="conteiners">
             <!-- Está se submento a algum tratamento atualmente?-->
             <p>Está se submento a algum tratamento atualmente?</p>
             <div>
-                <input type="radio" name="tratamento" id="tratamento1">
-                <label for="tratamento1">Sim</label>
                 <input type="radio" name="tratamento" id="tratamento2">
-                <label for="tratamento2">Não</label>
+                <label for="tratamento2"><b>Não</b></label>
+                <input type="radio" name="tratamento" id="tratamento1">
+                <label for="tratamento1">Sim, Qual?___________________________________________________________</label>
             </div>
         </div>
         <div class="conteiners">
             <!-- Possui Convênio médico?-->
             <p>Possui Convênio médico?</p>
-            <div>
-                <input type="radio" name="convenio" id="convenio1">
-                <label for="convenio1">Sim</label>
+            <div">
                 <input type="radio" name="convenio" id="convenio2">
-                <label for="convenio2">Não</label>
+                <label for="convenio2"><b>Não</b></label>
+                <input type="radio" name="convenio" id="convenio1">
+                <label for="convenio1">Sim, Qual?___________________________________________________________</label>
             </div>
         </div>
         <div class="conteiners">
@@ -126,30 +145,43 @@
                 <input type="checkbox" name="Intelectual" id="Intelectual">
                 <label for="Intelectual">Intelectual</label>
             </div>
-        </div>
-        <div class="conteiners">
-            <!-- Contatos em caso de Emergência-->
-            <p>Contatos em caso de Emergência</p>
             <div>
-                <input type="number" name="contato" id="contato">
-                <label for="contato">Contato 1</label>
+                <input type="checkbox" name="deficiencia" id="deficiencia">
+                <label for="deficiencia"><b>Não</b></label>
             </div>
         </div>
         <div class="conteiners">
-            <!-- Por que você escolheu a ATHON?.-->
-            <p>Por que você escolheu a ATHON?.</p>
+            <!-- Contatos em caso de Emergência-->
+            <p>Contatos em caso de Emergência.</p>
             <div>
-                <textarea name="motivacao" id="informacoes" cols="30" rows="5"></textarea>
+                <label>Numero:____________________________Nome: ______________________</label>
+            </div>
+            <div>
+                <label>Numero:____________________________Nome: ______________________</label>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label >Numero:____________________________Nome: ______________________</label>
             </div>
         </div>
         <div class="conteiners">
             <!-- Descreva informações que julgar importante se necessário.-->
-            <p>Descreva informações que julgar importante se necessário.</p>
-            <div>
-                <textarea name="informacoes" id="informacoes" cols="30" rows="5"></textarea>
-            </div>
+            <p>(Opcional) Descreva informações que julgar importante se necessário.</p>
+            <label>____________________________________________________________________________</label>
+            <label>____________________________________________________________________________</label>
+            <label>____________________________________________________________________________</label>
+            <label style="margin-bottom: 10px;">____________________________________________________________________________</label>
         </div>
-        <button onclick="alert('Formulário enviado!')">Enviar</button>
+        <div class="conteiners" style="width: 50%;">
+            <!-- Descreva informações que julgar importante se necessário.-->
+            <p>Aluno:</p>
+            <label style="margin: 20px 0 10px 0;">____________________________________</label>
+        </div>
+        <div class="conteiners" style="width: 50%;">
+            <!-- Descreva informações que julgar importante se necessário.-->
+            <p>Atendente:</p>
+            <label style="margin: 20px 0 10px 0;">____________________________________</label>
+        </div>
     </form>
+    
 </body>
 </html>
